@@ -1,6 +1,3 @@
-names = ("Stephen", "Taylor", "Lewis", "Mel")
-age = (44, 11, 14, 45)
+phrase = "Absent Without Leave"
 
-details = list(zip(names, age))
-
-print(details[1])
+print(*[letter[0] for letter in phrase.split(" ")])
